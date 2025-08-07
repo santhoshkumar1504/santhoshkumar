@@ -5,6 +5,7 @@ const About = () => {
   console.log(interndata[0].company);
   
   return (
+    <div id='about'>
     <div className='about-container'>
         <h2 className='text-center head'>About Me</h2>
         <p className='text-justify mx-3 px-3 para'>
@@ -16,7 +17,8 @@ const About = () => {
         <div className="row w-100 card-container">
           <div className="col-12 col-md-6">
                     <div className="card about-card">
-                      <div className="card-title text-center fw-semibold">Education</div>
+                      <div className="card-title text-center fw-bold">         
+                          Education</div>
                       <div className="card-text">
                         <ul>
                           <li><b>Master of Computer Application</b>,<br/>Alagappa University,<br/>Karaikudi.<br/>July 2024 - April 2026</li>
@@ -29,7 +31,7 @@ const About = () => {
           </div>
           <div className="col-12 col-md-6">
             <div className="card about-card">
-              <div className="card-title text-center fw-semibold">
+              <div className="card-title text-center fw-bold">
                 Internship
                  </div>
                 <ul>
@@ -47,6 +49,8 @@ const About = () => {
         </div>
 
         {/* Internship */}
+    </div>
+
     </div>
   )
 }

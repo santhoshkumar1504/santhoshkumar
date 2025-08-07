@@ -1,6 +1,6 @@
 .about-container{
     width: 100%;
-    min-height: 100dvh;
+    min-height: fit-content;
     background-color: var(--primary-color);
     padding: 2px 15px;
     transition: 8s;
@@ -24,6 +24,16 @@
     animation-timeline: view();
     animation-range: entry 0%;
     padding: 20px;
+}
+/* .about-card:hover{
+    background-color: rgba(250, 99, 129, 0.993);
+} */
+.card-title{
+    font-size: 18px;
+    color: var(--secondary-color);
+}
+.card-text ul li{
+    margin-bottom: 15px;
 }
 
 /* Animations */
