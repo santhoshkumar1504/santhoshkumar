@@ -1,0 +1,130 @@
+.home-container{
+    background-color: var(--primary-color);
+    padding: 5px 25px;
+    width: 100%;
+    min-height: 90dvh;
+}
+.home-maintext{
+    color: var(--primary-white);
+    font-size: 17px;
+}
+.home-name{
+    color: var(--secondary-color);
+    margin-top: 3px;
+    font-size: 24px;
+    animation: text-ani 1s;
+}
+.home-subtext{
+    color: var(--primary-white);
+    text-align:justify;
+}
+
+.resume-btn{
+    margin-top: 15px;
+    background-color: var(--secondary-color);
+    color: var(--primary-white);
+    font-size: 16px;
+    font-weight: 600;
+}
+.resume-btn:hover{
+    background-color: var(--primary-white);
+    color: var(--secondary-color);
+}
+.image-container{
+    display: flex;
+    position: relative;
+    margin-bottom: 10px;
+}
+.pic{
+    position: absolute;
+    z-index: 10;
+    filter:contrast(1.4);
+    height: 100px;
+    user-select: none;
+}
+.design{
+    user-select: none;
+    margin-top: -35px;
+    z-index: 1;
+    transition: 5s;
+    animation: rotate-ani 10s 0.1s infinite ease;
+}
+
+/* Animation */
+@keyframes rotate-ani {
+    0%{
+       rotate: 0deg;
+    }
+    25%{
+        rotate: 360deg;
+    }
+    50%{
+        rotate: 0deg;
+    }
+    100%{
+        rotate: 360deg;
+    }
+}
+@keyframes text-ani {
+    from{
+        opacity: 0.5;
+        transform: translateX(-500px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+/* Media Query */
+@media (min-width:768px) {
+    .box{
+        margin-top: 100px;
+        margin-left: 80px;
+        margin-bottom: 25px;
+    }
+    .box1{
+        margin-top: 70px;
+        margin-left: 150px;
+        margin-bottom: 25px;
+        width: 320px;
+        height: 380px;
+    }
+    .row{
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+
+@media (max-width:767px) {
+    .buttonsGroup{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+    .row{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .box1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 25px;
+        width: 250px;
+        height: 300px;
+    }
+    .home-container{
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        text-align: center;
+        align-items: center;
+    }
+    .home-subtext{
+    color: var(--primary-white);
+    text-align:center;
+}
+}
