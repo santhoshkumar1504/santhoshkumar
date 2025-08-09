@@ -24,7 +24,16 @@ const Navbar = () => {
         menu.style.display="none";
         menuscbtn.style.display="none";
     }
+ function hideMenu()
+ {
+    let menu=document.getElementById('menu');
+        let menusbtn=document.getElementById('menusbtn');
+        let menuscbtn=document.getElementById('menuscbtn');
 
+         menusbtn.style.display="flex";
+        menu.style.display="none";
+        menuscbtn.style.display="none";
+ }
 
   return (
     <div className='navbar navbar-expand-md'>
@@ -52,27 +61,27 @@ const Navbar = () => {
         {/* Navbar Menu Items */}
         <div className="contain" id='menu'>
             <ul className="navbar-nav">
-            <a href="#home">
+            <a href="#home" onClick={hideMenu}>
                 <li className="navbar-item">
                     Home
                 </li></a>
-                <a href="#about">
+                <a href="#about"  onClick={hideMenu}>
                 <li className="navbar-item">
                     About Me
                 </li></a>
-                <a href="#">
+                <a href="#"  onClick={hideMenu}>
                 <li className="navbar-item">
                     Skills
                 </li></a>
-                <a href="#">
+                <a href="#"  onClick={hideMenu}>
                 <li className="navbar-item">
                     Certificates
                 </li></a>
-                <a href="#">
+                <a href="#"  onClick={hideMenu}>
                 <li className="navbar-item">
                     Projects
                 </li></a>
-                <a href="#">
+                <a href="#"  onClick={hideMenu}>
                 <li className="navbar-item">
                     Contact
                 </li></a>

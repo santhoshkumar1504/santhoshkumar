@@ -1,0 +1,68 @@
+.skill-container{
+    background-color: var(--primary-color);
+    padding: 10px 20px;
+}
+.skill-col{
+    border: 1px solid var(--primary-white);
+    border-radius: 8px;
+    margin: 3px;
+}
+
+.skill-set{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+     animation: ani-skill ease;
+    animation-timeline: view();
+    animation-range: entry 0%;
+}
+.skill-img{
+    margin: 10px;
+    background-color: var(--primary-white);
+    padding: 5px;
+    border-radius: 5px;
+    filter: contrast(2);
+    width: 90px;
+    height: 90px;
+   
+}
+
+/* .skill-img:hover{
+ background-color: var(--secondary-color);
+} */
+
+
+
+
+/* Media query */
+
+@media (min-width:768px) {
+
+.skill-row{
+    display: flex;
+    justify-content: space-around;
+}
+}
+
+@media (max-width:767px) {
+
+    .skill-img{
+    margin-left: 35px;
+}
+}
+
+
+@keyframes ani-skill {
+    from
+    {
+        opacity: 0;
+        scale:0;
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+}

@@ -29,6 +29,6 @@
 }
 .head{
     color: var(--secondary-color);
-    margin: 2px 0px;
+    padding: 2px 0px;
     margin-bottom: 5px;
 }

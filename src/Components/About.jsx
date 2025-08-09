@@ -2,12 +2,12 @@ import '../Stylesheets/aboutStyle.css'
 import interndata from '../Datas/internshipData.json'
 
 const About = () => {
-  console.log(interndata[0].company);
   
   return (
-    <div id='about'>
+    <div>
+      <div id='about'>
     <div className='about-container'>
-        <h2 className='text-center head'>About Me</h2>
+        <h2 className='text-center head mb-2'>About Me</h2>
         <p className='text-justify mx-3 px-3 para'>
           I'm Santhoshkumar.  Currently pursuing M.C.A. at Alagappa University.  I'm a passionate and aspiring web developeer with a keen interest in creating beautiful, responsive and user-friendly websites.  With a strong foundation in <b>HTML5, CSS3, Javascript, React JS and modern frameworks like Bootstrap5 </b>.  Currently, I am honing my skills as a Software Development intern at Visval Career Solutions Private Limited, where I work on innovative projects and gain hands-on experience in developing scalable solutions.  My goal is to continuously learn, innovate and contribute to impactful projects in the field of web development.
         </p>
@@ -49,6 +49,8 @@ const About = () => {
         </div>
 
         {/* Internship */}
+    </div>
+
     </div>
 
     </div>
