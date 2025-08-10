@@ -69,17 +69,17 @@ const Navbar = () => {
                 <li className="navbar-item">
                     About Me
                 </li></a>
-                <a href="#"  onClick={hideMenu}>
+                <a href="#skills"  onClick={hideMenu}>
                 <li className="navbar-item">
                     Skills
                 </li></a>
-                <a href="#"  onClick={hideMenu}>
+                <a href="#projects"  onClick={hideMenu}>
                 <li className="navbar-item">
-                    Certificates
+                    Projects
                 </li></a>
                 <a href="#"  onClick={hideMenu}>
                 <li className="navbar-item">
-                    Projects
+                   Certificates
                 </li></a>
                 <a href="#"  onClick={hideMenu}>
                 <li className="navbar-item">

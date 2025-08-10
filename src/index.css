@@ -5,6 +5,10 @@
     scroll-behavior: smooth;
     box-sizing: border-box;
 }
+body{
+    background-color: var(--primary-color);
+}
+
 :root{
     --primary-color: black;
     --secondary-color:crimson;
@@ -31,4 +35,20 @@
     color: var(--secondary-color);
     padding: 2px 0px;
     margin-bottom: 5px;
+}
+
+
+ @media (min-width:768px) {
+#about,#skills,#projects{
+    padding-top: 45px;
+    background-color: var(--primary-color);
+ } 
+}
+
+@media (max-width:767px) {
+
+#about,#skills,#projects{
+    padding-top: 55px;
+    background-color: var(--primary-color);
+ } 
 }
