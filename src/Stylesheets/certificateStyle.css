@@ -1,0 +1,65 @@
+.certificate-container{
+    width: 100%;
+    padding: 15px;
+    min-height: fit-content;
+    background-color: var(--primary-color);
+    padding-bottom: 20px;
+}
+.certificate-row{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.certificate-col{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.certificate-box{
+    background-color: var(--primary-color);
+    border: 1px solid var(--primary-white);
+    padding: 15px 0px;
+    border-radius: 10px;
+    text-align: center;
+      animation: ani-skill ease;
+    animation-timeline: view();
+    animation-range: entry 0%;
+}
+.certify-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 70%;
+    height: auto;
+}
+.certify-name{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: var(--secondary-color);
+}
+.certify-btn{
+    background-color: var(--secondary-color);
+    color: var(--primary-white);
+}
+.certify-btn:hover{
+       background-color: var(--secondary-color);
+    color: var(--primary-white);
+}
+
+/* animation */
+@keyframes ani-cerify {
+    from
+    {
+        opacity: 0;
+        scale:0;
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+}

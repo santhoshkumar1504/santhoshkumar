@@ -35,7 +35,11 @@
 .card-text ul li{
     margin-bottom: 15px;
 }
-
+.buttonsGroup-about .resume-btn svg{
+    width: 30px;
+    height: 25px;
+    fill: var(--primary-white);
+}
 /* Animations */
 @keyframes ani-left {
     from{

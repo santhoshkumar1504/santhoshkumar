@@ -36,10 +36,13 @@ body{
     padding: 2px 0px;
     margin-bottom: 5px;
 }
-
+.footer{
+    color:gray;
+    font-weight: 500;
+}
 
  @media (min-width:768px) {
-#about,#skills,#projects{
+#about,#skills,#projects,#certificates{
     padding-top: 45px;
     background-color: var(--primary-color);
  } 
@@ -47,7 +50,7 @@ body{
 
 @media (max-width:767px) {
 
-#about,#skills,#projects{
+#about,#skills,#projects,#certificates{
     padding-top: 55px;
     background-color: var(--primary-color);
  } 

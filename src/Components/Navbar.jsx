@@ -77,11 +77,14 @@ const Navbar = () => {
                 <li className="navbar-item">
                     Projects
                 </li></a>
-                <a href="#"  onClick={hideMenu}>
+
+                
+                <a href="#certificates"  onClick={hideMenu}>
                 <li className="navbar-item">
                    Certificates
                 </li></a>
-                <a href="#"  onClick={hideMenu}>
+
+                <a href="#contact"  onClick={hideMenu}>
                 <li className="navbar-item">
                     Contact
                 </li></a>

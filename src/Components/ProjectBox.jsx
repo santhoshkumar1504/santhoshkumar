@@ -13,7 +13,7 @@ const ProjectBox = (props) => {
               <div className="cart-title">
                 {props.projecttitle}
               </div>
-              <div className="card-subtitle">
+              <div className="card-subtitle m-2">
                {props.projectdesc}
               </div>
 
