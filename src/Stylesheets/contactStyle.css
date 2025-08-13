@@ -1,0 +1,96 @@
+.contact-col{
+    padding: 25px 10px;
+    padding-bottom: 15px;
+     animation: ani-left ease-in-out;
+    animation-timeline: view();
+    animation-range: entry -20%;
+}
+.maincontact{
+    color: var(--primary-white);
+    margin: 40px 50px;
+}
+.subcontentinContact{
+    padding: 10px 5px;
+}
+.contact-atag{
+    text-decoration: none;
+    color: var(--primary-white);
+    font-size: 18px;
+}
+.content1{
+    margin-top: 5px;
+
+}
+.content1 svg{
+    width: 30px;
+    height: 30px;
+    fill: var(--secondary-color);
+    margin-right: 5px;
+}
+.icons-container-contact{
+    margin-top: 10px;
+}
+.contact-form{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.form-label{
+    color: var(--primary-white);
+    margin-top:8px;
+}
+.form-control{
+    padding: 6px;
+    margin-bottom: 10px;
+}
+.msg-btn{
+    margin-top: 20px;
+    background-color: var(--secondary-color);
+}
+.msg-btn:hover{
+    margin-top: 20px;
+    background-color: var(--secondary-color);
+}
+/* Media query */
+@media (min-width:768px) {
+    .contact-form{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+}
+}
+@media (max-width:767px) {
+.maincontact{
+    color: var(--primary-white);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-top: 5px;
+   
+}
+.contact-form{
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+.msg-btn{
+    background-color: var(--secondary-color);
+    display: flex;
+    justify-self: center;
+    margin-top: 25px;
+}
+.contact-col{
+    padding: 0px 5px;
+}
+
+}
+
+@keyframes ani-left {
+    from{
+        opacity: 0;
+        transform: translateX(-500px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}

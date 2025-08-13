@@ -55,9 +55,10 @@ const Skills = () => {
                 <div className='skill-set'>
           <Skillset imgsrc={python}/>
           <Skillset imgsrc={java}/>
+          <Skillset imgsrc={node}/>
           </div>
 
-          <p className='skill-para'>Python, Java</p>
+          <p className='skill-para'>Python, Java, NodeJS</p>
              </div>
             </div>
 

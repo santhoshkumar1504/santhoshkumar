@@ -40,6 +40,11 @@
     height: 25px;
     fill: var(--primary-white);
 }
+.buttonsGroup-about .resume-btn:hover svg{
+    width: 30px;
+    height: 25px;
+    fill: var(--secondary-color);
+}
 /* Animations */
 @keyframes ani-left {
     from{

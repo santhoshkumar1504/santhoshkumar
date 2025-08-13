@@ -1,5 +1,6 @@
 import About from './Components/About'
 import Certificate from './Components/Certificate'
+import Contact from './Components/Contact'
 import Footer from './Components/Footer'
 import Home from './Components/Home'
 import Navbar from './Components/Navbar'
@@ -18,6 +19,7 @@ function App() {
       <Skills/>
       <Projects/>
       <Certificate/>
+      <Contact/>
       <Footer/>
       </div>
     </>

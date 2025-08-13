@@ -18,7 +18,13 @@
     color: var(--primary-white);
     text-align:justify;
 }
-
+.a-btn{
+    text-decoration: none;
+    color:var(--primary-white);
+}
+.a-btn:hover{
+    color: var(--secondary-color);
+}
 .resume-btn{
     margin-top: 15px;
     background-color: var(--secondary-color);
