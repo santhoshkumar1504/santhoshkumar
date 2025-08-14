@@ -1,12 +1,6 @@
 import '../Stylesheets/contactStyle.css'
 const Contact = () => {
 
-  const submitform=()=>{
-    const msgsuccess=document.getElementById("msg-success");
-    msgsuccess.style.display="block";
-    const formid=document.getElementById("formid");
-    formid.preventDefault();
-  }
   return (
    <>
    <div id='contact' className='p-3 contact-container'>
@@ -46,17 +40,19 @@ const Contact = () => {
                   <label htmlFor="name" className='form-label'>Name <span className='requireds'>*</span>:</label>
                   <input type="text" name="Name" id="name" className='form-control' placeholder='Enter your Name' required />
 
+                  <label htmlFor="phone" className='form-label'>Phone Number <span className='requireds'>*</span>:</label>
+                  <input type="tel" name="Phonenumber" id="phone" className='form-control' placeholder='Enter your Phone Number' required />
+
                   <label htmlFor="email" className='form-label'>Email <span className='requireds'>*</span>:</label>
                   <input type="email" name="EmailId" id="email" className='form-control' placeholder='Enter your Email' required/>
 
                   <label htmlFor="msg" className='form-label'>Message <span className='requireds'>*</span>:</label>
-                 <textarea className='form-control' id='msg' name='Message' height='50px' placeholder='Type your messages' required></textarea>
+                 <textarea className='form-control txt-are' id='msg' name='Message' placeholder='Type your messages' required></textarea>
 
-                  <button type="submit" className='btn btn-danger msg-btn' onClick={submitform}>Send Message</button>
+                  <button type="submit" className='btn btn-danger msg-btn'>Send Message</button>
                 </form>
               
                </div>
-               <p className='msg-notify' id='msg-success'>Message Sended Successfully.</p>
             </div>
             
         </div>

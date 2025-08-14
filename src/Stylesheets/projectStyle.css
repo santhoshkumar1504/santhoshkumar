@@ -10,6 +10,7 @@
     margin-top: 20px;
     border-radius: 5px;
     background-color: var(--secondary-text-color);
+    border: 1px solid var(--primary-background-white);
      animation: ani-skill ease;
     animation-timeline: view();
     animation-range: entry 0%;
