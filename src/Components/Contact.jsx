@@ -50,7 +50,7 @@ const Contact = () => {
                   <input type="email" name="EmailId" id="email" className='form-control' placeholder='Enter your Email' required/>
 
                   <label htmlFor="msg" className='form-label'>Message <span className='requireds'>*</span>:</label>
-                 <textarea className='form-control' id='msg' name='Message' placeholder='Type your messages' required></textarea>
+                 <textarea className='form-control' id='msg' name='Message' height='50px' placeholder='Type your messages' required></textarea>
 
                   <button type="submit" className='btn btn-danger msg-btn' onClick={submitform}>Send Message</button>
                 </form>

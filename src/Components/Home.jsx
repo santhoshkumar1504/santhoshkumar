@@ -1,5 +1,6 @@
 import { useState } from 'react';
-import '../Stylesheets/homeStyle.css'
+import '../Stylesheets/homeStyle.css';
+import resume from '../assets/Resume-santhosh.pdf'
 import image from '../assets/1000033025.png'
 import image1 from '../assets/1000033219-removebg-preview.png';
 
@@ -43,7 +44,11 @@ const Home = () => {
                 </div>
 
                 <div className="d-flex buttonsGroup">
-                <button className='btn resume-btn mb-3'>My Resume</button>
+                    <a href={resume} className='text-decoration-none'>
+                     <button className='btn resume-btn mb-3'>
+                    My Resume</button>
+                    </a>
+               
                         <a href='#contact' className='a-btn'> 
                     <button className='btn resume-btn mb-3 ms-3'> Contact</button></a>
                 

@@ -14,7 +14,7 @@ const Projects = () => {
       "projecttitle":"Personal Portfolio",
       "projectdesc":"A responsive personal portfolio website built with React to showcase projects, skills, and contact information, featuring smooth navigation and a clean, modern design.",
       "github":"https://github.com/santhoshkumar1504/santhoshkumar",
-      "website":""
+      "website":"https://santhoshkumar-one.vercel.app/"
     },
     {
       "pid":1002,
