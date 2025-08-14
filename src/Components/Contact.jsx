@@ -1,8 +1,15 @@
 import '../Stylesheets/contactStyle.css'
 const Contact = () => {
+
+  const submitform=()=>{
+    const msgsuccess=document.getElementById("msg-success");
+    msgsuccess.style.display="block";
+    const formid=document.getElementById("formid");
+    formid.preventDefault();
+  }
   return (
    <>
-   <div id='contact' className='p-3'>
+   <div id='contact' className='p-3 contact-container'>
         <h2 className='text-center head'>Contact</h2>
         <div className="row">
             <div className="col-md-12 col-lg-6 contact-col">
@@ -32,18 +39,24 @@ const Contact = () => {
             </div>
             <div className="col-md-12 col-lg-6 contact-col">
               <div className="contact-form">
-                <form action="">
-                  <label htmlFor="name" className='form-label'>Name :</label>
-                  <input type="text" name="uname" id="name" className='form-control' placeholder='Enter your Name' />
+                <form action="https://api.web3forms.com/submit" method="POST" id="formid">
 
-                  <label htmlFor="email" className='form-label'>Email :</label>
-                  <input type="email" name="emailid" id="email" className='form-control' placeholder='Enter your Email'/>
+                <input type="hidden" name="access_key" value="089f9447-78dc-4feb-a34b-3fe0bcdbd65a"></input>
 
-                  <label htmlFor="msg" className='form-label'>Message :</label>
-                 <textarea className='form-control' id='msg' name='message' placeholder='Type your messages'></textarea>
+                  <label htmlFor="name" className='form-label'>Name <span className='requireds'>*</span>:</label>
+                  <input type="text" name="Name" id="name" className='form-control' placeholder='Enter your Name' required />
+
+                  <label htmlFor="email" className='form-label'>Email <span className='requireds'>*</span>:</label>
+                  <input type="email" name="EmailId" id="email" className='form-control' placeholder='Enter your Email' required/>
+
+                  <label htmlFor="msg" className='form-label'>Message <span className='requireds'>*</span>:</label>
+                 <textarea className='form-control' id='msg' name='Message' placeholder='Type your messages' required></textarea>
+
+                  <button type="submit" className='btn btn-danger msg-btn' onClick={submitform}>Send Message</button>
                 </form>
-               <button type="submit" className='btn btn-danger msg-btn'>Send Message</button>
+              
                </div>
+               <p className='msg-notify' id='msg-success'>Message Sended Successfully.</p>
             </div>
             
         </div>

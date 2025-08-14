@@ -1,7 +1,7 @@
 .about-container{
     width: 100%;
     min-height: fit-content;
-    background-color: var(--primary-color);
+    background-color: var(--primary-background-color);
     padding: 2px 15px;
     transition: 8s;
 }
@@ -11,7 +11,7 @@
     animation-range: entry 20%;
 }
 .about-container .para{
-    color: var(--primary-white);
+    color: var(--primary-background-white);
     animation: ani-left ease-in-out;
     animation-timeline: view();
     animation-range: entry 0%;
@@ -30,7 +30,7 @@
 } */
 .card-title{
     font-size: 18px;
-    color: var(--secondary-color);
+    color: var(--secondary-background-color);
 }
 .card-text ul li{
     margin-bottom: 15px;
@@ -38,12 +38,12 @@
 .buttonsGroup-about .resume-btn svg{
     width: 30px;
     height: 25px;
-    fill: var(--primary-white);
+    fill: var(--primary-background-white);
 }
 .buttonsGroup-about .resume-btn:hover svg{
     width: 30px;
     height: 25px;
-    fill: var(--secondary-color);
+    fill: var(--secondary-background-color);
 }
 /* Animations */
 @keyframes ani-left {

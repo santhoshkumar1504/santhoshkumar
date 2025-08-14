@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+QLD:wght@100..400&display=swap');
 
 .navbar{
-    background-color: var(--primary-color);
+    background-color: var(--primary-background-color);
     display: flex;
     justify-content: space-between;
     position: sticky;
@@ -17,14 +17,14 @@
   font-weight: 600;
   font-style: normal;
     display: flex;
-    color: var(--secondary-color);
+    color: var(--secondary-background-color);
     font-size: 21px;
     align-items: center;
     margin-left: 12px;
 }
 .navbar-brand:hover{
     cursor: pointer;
-    color: var(--primary-white);
+    color: var( --secondary-text-color);
 }
 .navbar-nav .navbar-item{
     display: flex;
@@ -35,12 +35,12 @@
 }
 .navbar-nav a{
     text-decoration: none;
-    color: var(--secondary-color);
+    color: var(--secondary-background-color);
     font-weight: 500;
     margin: 0px 4px;
 }
 .navbar-item:hover{
-    border-bottom: 2px solid var(--secondary-color);
+    border-bottom: 2px solid var(--secondary-background-color);
     border-radius: 5px;
 }
 .contain{

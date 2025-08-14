@@ -6,22 +6,25 @@
     box-sizing: border-box;
 }
 body{
-    background-color: var(--primary-color);
+    background-color: var( --primary-background-color);
 }
 
 :root{
     --primary-background-color:black;
-    --secondary-background-color:white;
+    --secondary-background-color:crimson;
+    --primary-background-white:white;
 
     --primary-text-color:black;
+    --primary-head-text-color:crimson;
     --secondary-text-color:white;
 
-    --bg-hover-color:black;
+    --bg-hover-color:rgb(247, 15, 61);
+    --bg-icon-hover-color:white;
     --text-hover-color:white;
 
-    --primary-color: black;
+    /* --primary-color: black;
     --secondary-color:crimson;
-    --primary-white:white;
+    --primary-white:white; */
 }
 .portfolio-container{
     position: relative;
@@ -34,15 +37,15 @@ body{
 .icon{
     width: 35px;
     height: 35px;
-    fill: var(--secondary-color);
+    fill: var(--secondary-background-color);
     border-radius: 5px;
     margin: 10px;
 }
 .icon:hover{
-    fill: var(--primary-white);
+    fill: var(--bg-icon-hover-color);
 }
 .head{
-    color: var(--secondary-color);
+    color: var(--primary-head-text-color);
     padding: 2px 0px;
     margin-bottom: 5px;
 }
@@ -51,21 +54,11 @@ body{
     font-weight: 500;
     text-align: center;
 }
-.icon-modes{
-    display: flex;
-}
-.iconmodebtn{
-    background-color: transparent;
-}
-.iconmodebtn svg{
-fill: var(--secondary-color);
-width: 30px;
-height: 30px;
-}
+
  @media (min-width:768px) {
 #about,#skills,#projects,#certificates,#contact{
     padding-top: 45px;
-    background-color: var(--primary-color);
+    background-color: var(--primary-background-color);
  } 
 }
 
@@ -73,10 +66,10 @@ height: 30px;
 
 #about,#skills,#projects,#certificates{
     padding-top: 55px;
-    background-color: var(--primary-color);
+    background-color: var(--primary-background-color);
  } 
 .head{
       padding-top: 55px;
-    background-color: var(--primary-color);
+    background-color: var(--primary-background-color);
  }
 }

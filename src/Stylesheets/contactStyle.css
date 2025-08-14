@@ -1,3 +1,6 @@
+.contact-container{
+    background-color: var(--primary-background-color);
+}
 .contact-col{
     padding: 25px 10px;
     padding-bottom: 15px;
@@ -6,15 +9,15 @@
     animation-range: entry -20%;
 }
 .maincontact{
-    color: var(--primary-white);
-    margin: 40px 50px;
+    color: var(--secondary-text-color);
+    padding: 40px 50px;
 }
 .subcontentinContact{
     padding: 10px 5px;
 }
 .contact-atag{
     text-decoration: none;
-    color: var(--primary-white);
+    color: var(--secondary-text-color);
     font-size: 18px;
 }
 .content1{
@@ -24,7 +27,7 @@
 .content1 svg{
     width: 30px;
     height: 30px;
-    fill: var(--secondary-color);
+    fill: var(--secondary-background-color);
     margin-right: 5px;
 }
 .icons-container-contact{
@@ -35,7 +38,7 @@
     padding-bottom: 10px;
 }
 .form-label{
-    color: var(--primary-white);
+    color: var(--secondary-text-color);
     margin-top:8px;
 }
 .form-control{
@@ -44,11 +47,20 @@
 }
 .msg-btn{
     margin-top: 20px;
-    background-color: var(--secondary-color);
+    background-color: var(--secondary-background-color);
 }
 .msg-btn:hover{
     margin-top: 20px;
-    background-color: var(--secondary-color);
+    background-color: var(--primary-background-color);
+}
+.requireds{
+    color: red;
+}
+.msg-notify{
+    display: none;
+    color: rgb(23, 146, 23);
+    text-align: center;
+    padding-top: 5px;
 }
 /* Media query */
 @media (min-width:768px) {
@@ -60,7 +72,7 @@
 }
 @media (max-width:767px) {
 .maincontact{
-    color: var(--primary-white);
+    color: var(--secondary-text-color);
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -73,7 +85,7 @@
     padding-bottom: 10px;
 }
 .msg-btn{
-    background-color: var(--secondary-color);
+    background-color: var(--secondary-background-color);
     display: flex;
     justify-self: center;
     margin-top: 25px;

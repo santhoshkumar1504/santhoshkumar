@@ -1,9 +1,9 @@
 .skill-container{
-    background-color: var(--primary-color);
+    background-color: var(--primary-background-color);
     padding: 10px 20px;
 }
 .skill-col{
-    border: 1px solid var(--primary-white);
+    border: 1px solid var(--primary-background-white);
     border-radius: 8px;
     margin: 3px;
      animation: ani-skill ease;
@@ -31,7 +31,7 @@
     animation-range: entry 0%;
 }
 .skill-para{
-    color: var(--secondary-color);
+    color: var(--secondary-background-color);
     text-align: center;
     margin-top: 5px;
     font-weight: 600;
@@ -43,7 +43,7 @@
 
 .skill-img{
     margin: 15px;
-    background-color: var(--primary-white);
+    background-color: var(--primary-background-white);
     padding: 5px;
     border-radius: 5px;
     filter: contrast(2);
@@ -58,17 +58,17 @@
 
 
 .skill-svg{
-  fill: var(--secondary-color);
+  fill: var(--secondary-background-color);
     width: 30px;
     height: 30px;
 }
 
 .skill-tool{
-    color: var(--secondary-color);
+    color: var(--secondary-background-color);
 }
 
 .skill-head{
-    color: var(--primary-white);
+    color: var(--primary-background-white);
     justify-content: center;
     margin-top: 10px;
 }
