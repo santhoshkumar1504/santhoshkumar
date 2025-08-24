@@ -25,6 +25,7 @@
     padding: 15px 0px;
     border-radius: 10px;
     text-align: center;
+       transition: 1s;
       animation: ani-skill ease;
     animation-timeline: view();
     animation-range: entry 0%;

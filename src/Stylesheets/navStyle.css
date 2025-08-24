@@ -57,6 +57,7 @@
 
 @media (min-width:768px) {
     .menu-btn,.close-btn{
+    outline: none;
     display: flex;
     display: none;
 }
@@ -71,9 +72,11 @@
 }
 .close-btn{
     display: none;
+    outline: none;
 }
     .menu-btn{
         display: flex;
+        outline: none;
     }
 
     .navbar{

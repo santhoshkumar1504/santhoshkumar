@@ -1,5 +1,7 @@
 import html from '../assets/html-5.png'
 import css from '../assets/css-3.png'
+import expressjs from '../assets/express.png'
+// import mongodb from '../assets/mongodb.png'
 import js from '../assets/js.png'
 import react from '../assets/react.png'
 import mysql from '../assets/certificate/mysql.png'
@@ -56,9 +58,10 @@ const Skills = () => {
           <Skillset imgsrc={python}/>
           <Skillset imgsrc={java}/>
           <Skillset imgsrc={node}/>
+          <Skillset imgsrc={expressjs}/>
           </div>
 
-          <p className='skill-para'>Python, Java, NodeJS</p>
+          <p className='skill-para'>Python, Java, NodeJS, ExpressJs</p>
              </div>
             </div>
 
@@ -72,6 +75,7 @@ const Skills = () => {
                     </div> 
                 <div className='skill-set'>
               <Skillset imgsrc={mysql}/>  
+              {/* <Skillset imgsrc={mongodb}/>   */}
           </div>
 
 

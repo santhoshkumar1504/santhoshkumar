@@ -4,6 +4,7 @@
 .contact-col{
     padding: 25px 10px;
     padding-bottom: 15px;
+       transition: 1s;
      animation: ani-left ease-in-out;
     animation-timeline: view();
     animation-range: entry -20%;

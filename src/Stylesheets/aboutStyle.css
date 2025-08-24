@@ -12,6 +12,7 @@
 }
 .about-container .para{
     color: var(--primary-background-white);
+    transition: 1s;
     animation: ani-left ease-in-out;
     animation-timeline: view();
     animation-range: entry 0%;
@@ -20,6 +21,7 @@
 .about-card{
     margin-top: 20px;
     margin-bottom: 20px;
+       transition: 1s;
      animation: ani-left ease-in-out;
     animation-timeline: view();
     animation-range: entry 0%;
