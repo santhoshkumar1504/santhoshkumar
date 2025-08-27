@@ -25,7 +25,7 @@ const Skills = () => {
           <h2 className='text-center head'>Skills</h2>
           <div className="row skill-row">
 
-             <div className="col-md-12 col-lg-3 skill-col">
+             <div className="col-md-12 col-lg-4 skill-col">
               <div className="skill-box">
                    <div className='skill-head d-flex'>
                     <div className='skill-svg'>
