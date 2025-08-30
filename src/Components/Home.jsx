@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { TypeAnimation } from 'react-type-animation';
 import '../Stylesheets/homeStyle.css';
 import resume from '../assets/Resume-santhosh.pdf'
 import image from '../assets/1000033025.png'
@@ -6,7 +7,6 @@ import image1 from '../assets/1000033219-removebg-preview.png';
 
 const Home = () => {
 
-    const [mainjob,setMainJob]=useState("Web Developer | Freelancer")
   return (
     <div className='home-container' id='home'>
         <div className="row">
@@ -19,11 +19,25 @@ const Home = () => {
                 <br />
                 <h4 className='home-name'>SANTHOSHKUMAR</h4>
                 <span className='home-maintext'>
-                    {mainjob}
+                    <TypeAnimation
+      sequence={[
+        // Same substring at the start will only be typed out once, initially
+        'and I\'m a MERN Stack Developer',
+        1500, // wait 1s before replacing 
+        'and I\'m a Full-Stack Developer',
+        1500,
+        'and I\'m a Freelancer',
+        1500
+      ]}
+      wrapper="span"
+      speed={50}
+      style={{ fontSize: '20px', display: 'inline-block' }}
+      repeat={Infinity}
+    />
                 </span>
                 <hr className='mb-3'/>
                 <p className='home-subtext'>
-                    Welcome to my digital space! I'm a passionate and aspiring Full Stack Web Developer with a keen interest in creating beautiful, responsive and user-friendly websites.
+                    Welcome to my digital space! I'm a passionate and aspiring <b>FullStack Web Developer</b>  with a keen interest in creating beautiful, responsive and user-friendly websites.
                 </p>
 {/* links */}
                 <div className="icons-container">

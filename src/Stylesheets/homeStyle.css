@@ -6,12 +6,13 @@
 }
 .home-maintext{
     color: var(--primary-background-white);
-    font-size: 17px;
+    font-size: 18px;
 }
 .home-name{
     color: var( --primary-head-text-color);
     margin-top: 3px;
-    font-size: 24px;
+    font-size: 26px;
+    font-weight: bold;
     animation: text-ani 1s;
 }
 .home-subtext{

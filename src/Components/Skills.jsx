@@ -1,7 +1,7 @@
 import html from '../assets/html-5.png'
 import css from '../assets/css-3.png'
 import expressjs from '../assets/express.png'
-// import mongodb from '../assets/mongodb.png'
+import mongodb from '../assets/mongodb.png'
 import js from '../assets/js.png'
 import react from '../assets/react.png'
 import mysql from '../assets/certificate/mysql.png'
@@ -74,12 +74,13 @@ const Skills = () => {
                     <div className='ms-1'>Database</div>
                     </div> 
                 <div className='skill-set'>
+                   <Skillset imgsrc={mongodb}/>  
               <Skillset imgsrc={mysql}/>  
-              {/* <Skillset imgsrc={mongodb}/>   */}
+             
           </div>
 
 
-          <p className='skill-para'>MySQL</p>
+          <p className='skill-para'>MongoDB, MySQL</p>
              </div>
             </div>
 
