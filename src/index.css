@@ -40,7 +40,9 @@ body{
     fill: var(--secondary-background-color);
     border-radius: 5px;
     margin: 10px;
+    color: var(--secondary-background-color);
 }
+
 .icon:hover{
     fill: var(--bg-icon-hover-color);
 }

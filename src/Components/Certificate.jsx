@@ -27,7 +27,7 @@ const Certificate = () => {
                         {certificateData.map((item)=>(
                             <div className="col-md-12 col-lg-4 certificate-col">
                             <div className="certificate-box">
-                                    <img src={item.cetificateimg} className='certify-img' loading="lazy"/>
+                                    <img src={item.cetificateimg} className='certify-img'/>
                                     <h4 className='certify-name'>{item.certifyName}</h4>
                                     {item.certifcateLink && <a href={item.certifcateLink}>
                                         <button className='btn certify-btn'>View Certificate</button>

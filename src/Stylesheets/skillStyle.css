@@ -53,6 +53,9 @@
     height: 90px;
    
 }
+.skill-img:hover{
+    padding: 0px;
+}
 
 /* .skill-img:hover{
  background-color: var(--secondary-color);

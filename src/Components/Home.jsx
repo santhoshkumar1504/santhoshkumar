@@ -37,7 +37,7 @@ const Home = () => {
                 </span>
                 <hr className='mb-3'/>
                 <p className='home-subtext'>
-                    Welcome to my digital space! I'm a passionate and aspiring <b>FullStack Web Developer</b>  with a keen interest in creating beautiful, responsive and user-friendly websites.
+                  Welcome to my digital space! I'm a passionate and aspiring <b>FullStack Web Developer</b>  with a keen interest in creating beautiful, responsive and user-friendly websites.
                 </p>
 {/* links */}
                 <div className="icons-container">

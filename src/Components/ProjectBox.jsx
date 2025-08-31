@@ -8,7 +8,7 @@ const ProjectBox = (props) => {
       <div className="col-sm-10 col-md-6 col-lg-4 card-contain">
             <div className="cards project-col">
 
-              <img src={props.file} alt= {props.projecttitle} className='card-img' loading="lazy"/>
+              <img src={props.file} alt= {props.projecttitle} className='card-img'/>
 
               <div className="cart-title">
                 {props.projecttitle}

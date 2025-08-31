@@ -8,6 +8,7 @@ import mysql from '../assets/certificate/mysql.png'
 import node from '../assets/nodejs.png'
 import python from '../assets/python.png'
 import java from '../assets/java.png'
+import postman from '../assets/postman-icon.png'
 import bootstrap from '../assets/bootstrap.png'
 import vscode from '../assets/vscode.png'
 import git from '../assets/git.png'
@@ -95,6 +96,7 @@ const Skills = () => {
                 <Skillset imgsrc={git}/>
                 <Skillset imgsrc={github}/>
                 <Skillset imgsrc={figma}/>
+                <Skillset imgsrc={postman}/>
               </div>
             </div>
           </div>
