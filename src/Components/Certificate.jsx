@@ -1,8 +1,14 @@
 import React from 'react'
 import '../Stylesheets/certificateStyle.css'
+import mernstack from '../assets/certificate/mern-stack-course.jpeg'
 import certificate1 from '../assets/certificate/uxui.jpg'
 const Certificate = () => {
     const certificateData=[
+        {
+            "cid":200,
+            "cetificateimg":mernstack,
+            "certifyName":"Full Stack-MERN",
+        },
         {
             "cid":201,
             "cetificateimg":certificate1,
@@ -16,19 +22,21 @@ const Certificate = () => {
         <div className='certificate-container'>
             <h2 className='text-center head mb-2'>Certificates</h2>
             <div className="row certificate-row">
-                <div className="col-md-12 col-lg-4 certificate-col">
+                
                     
                         {certificateData.map((item)=>(
+                            <div className="col-md-12 col-lg-4 certificate-col">
                             <div className="certificate-box">
-                                    <img src={item.cetificateimg} className='certify-img'/>
+                                    <img src={item.cetificateimg} className='certify-img' loading="lazy"/>
                                     <h4 className='certify-name'>{item.certifyName}</h4>
-                                    <a href={item.certifcateLink}>
+                                    {item.certifcateLink && <a href={item.certifcateLink}>
                                         <button className='btn certify-btn'>View Certificate</button>
-                                    </a>
+                                    </a>}
                             </div>
+                             </div>
                         ))}
                     
-                </div>
+               
             </div>
         </div>
         </div>

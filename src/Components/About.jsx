@@ -48,7 +48,8 @@ const About = () => {
                     <li key={data.id}>
                      <b> {data['intern-role']}</b>
                       ,<br/>{data.company},<br/>{data.place}.<br/>
-                  Duration: {data.duration} Months</li>
+                  {data.duration && `Duration: ${data.duration} Months`}
+                  </li>
                   ))}
                   
                 </ul>

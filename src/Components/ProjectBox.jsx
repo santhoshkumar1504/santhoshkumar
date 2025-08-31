@@ -8,7 +8,7 @@ const ProjectBox = (props) => {
       <div className="col-sm-10 col-md-6 col-lg-4 card-contain">
             <div className="cards project-col">
 
-              <img src={props.file} alt= {props.projecttitle} className='card-img'/>
+              <img src={props.file} alt= {props.projecttitle} className='card-img' loading="lazy"/>
 
               <div className="cart-title">
                 {props.projecttitle}
@@ -23,11 +23,11 @@ const ProjectBox = (props) => {
                         Github Link
                     </button>
                     </a> 
-                    <a href={props.website}>
+                  { props.website && <a href={props.website}>
                     <button type="button" className='btn project-btn'>
                         Live Link
                     </button>
-                    </a> 
+                    </a> }
                 </div>
 
             </div>

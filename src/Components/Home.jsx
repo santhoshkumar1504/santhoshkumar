@@ -8,7 +8,7 @@ import image1 from '../assets/1000033219-removebg-preview.png';
 const Home = () => {
 
   return (
-    <div className='home-container' id='home'>
+    <div className='home-container'  id='home'>
         <div className="row">
 
             <div className="col-12 col-md-5 box">
