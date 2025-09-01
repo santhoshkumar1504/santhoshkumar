@@ -4,11 +4,11 @@ import mernstack from '../assets/certificate/mern-stack-course.jpeg'
 import certificate1 from '../assets/certificate/uxui.jpg'
 const Certificate = () => {
     const certificateData=[
-        {
-            "cid":200,
-            "cetificateimg":mernstack,
-            "certifyName":"Full Stack-MERN",
-        },
+        // {
+        //     "cid":200,
+        //     "cetificateimg":mernstack,
+        //     "certifyName":"Full Stack-MERN",
+        // },
         {
             "cid":201,
             "cetificateimg":certificate1,

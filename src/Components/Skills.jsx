@@ -14,6 +14,8 @@ import vscode from '../assets/vscode.png'
 import git from '../assets/git.png'
 import github from '../assets/github-sign.png'
 import figma from '../assets/certificate/figma.png'
+import c from '../assets/c.png'
+import cplusplus from '../assets/cplusplus.png'
 
 import '../Stylesheets/skillStyle.css'
 import Skillset from './Skillset'
@@ -60,9 +62,11 @@ const Skills = () => {
           <Skillset imgsrc={java}/>
           <Skillset imgsrc={node}/>
           <Skillset imgsrc={expressjs}/>
+          <Skillset imgsrc={cplusplus}/>
+          <Skillset imgsrc={c}/>
           </div>
 
-          <p className='skill-para'>Python, Java, NodeJS, ExpressJs</p>
+          <p className='skill-para'>Python, Java, NodeJS, ExpressJs, C, C++</p>
              </div>
             </div>
 
@@ -91,7 +95,7 @@ const Skills = () => {
 
           <div className="row">
             <div className="col-md-8 col-lg-6 offset-md-2 offset-lg-3">
-              <div className="skill-col tool ">
+              <div className="tool-col tool ">
                 <Skillset imgsrc={vscode}/>
                 <Skillset imgsrc={git}/>
                 <Skillset imgsrc={github}/>

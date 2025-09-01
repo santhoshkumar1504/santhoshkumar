@@ -77,7 +77,15 @@
     justify-content: center;
     margin-top: 10px;
 }
-
+.tool-col{
+    border: 1px solid var(--primary-background-white);
+    border-radius: 8px;
+    margin: 3px;
+       transition: 1s;
+     animation: ani-skill ease;
+    animation-timeline: view();
+    animation-range: entry 0%;
+}
 /* Media query */
 
 @media (min-width:768px) {
@@ -86,13 +94,16 @@
     display: flex;
     justify-content: space-around;
 }
+.skill-col{
+    width: 400px;
+}
 }
 
 @media (max-width:767px) {
 
 
     .skill-img{
-    margin-left: 35px;
+    margin-left: 30px;
 }
 
 .skill-img{

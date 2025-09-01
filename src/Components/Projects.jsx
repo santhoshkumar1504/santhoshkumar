@@ -3,6 +3,7 @@ import weather from '../assets/weather.png'
 import portfolio from '../assets/portfolio-project.png'
 import currency from '../assets/currency.png'
 import ProjectBox from './ProjectBox'
+import movie from '../assets/movieapp.jpeg'
 
 const Projects = () => {
 
@@ -31,6 +32,14 @@ const Projects = () => {
       "projectdesc":"A React-based currency converter that uses a public API to provide real-time exchange rates and convert amounts between different currencies.",
       "github":"https://github.com/santhoshkumar1504/currencyconvertor",
       "website":"https://currencyconvertor-ashy.vercel.app/"
+    },
+    {
+      "pid":1004,
+      "projectimage":movie,
+      "projecttitle":"MovieHub App",
+      "projectdesc":"MovieHub is a React app that lets you discover movies and TV shows using the TMDB API. explore trending content, and view detailed information in a responsive UI.",
+      "github":"https://github.com/santhoshkumar1504/moviehub",
+      "website":"https://moviehub-flame.vercel.app/"
     }
   ]  
 
