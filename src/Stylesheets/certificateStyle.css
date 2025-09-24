@@ -20,12 +20,13 @@
     margin: auto;
 }
 .certificate-box{
-    width: 400px;
+    width: 450px;
     background-color: var(--primary-background-color);
     border: 1px solid var(--primary-background-white);
     padding: 15px 0px;
     border-radius: 10px;
-    text-align: center;
+    text-align:start;
+    padding: 3px;
        transition: 1s;
       animation: ani-skill ease;
     animation-timeline: view();
@@ -40,9 +41,14 @@
     height: auto;
 }
 .certify-name{
-    margin-top: 10px;
-    margin-bottom: 10px;
-    color: var( --primary-head-text-color);
+    cursor: pointer;
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-bottom: 15px;
+    color: white;
+}
+.certify-name:hover{
+    color: var(--secondary-background-color);
 }
 .certify-btn{
     background-color: var(--secondary-background-color);

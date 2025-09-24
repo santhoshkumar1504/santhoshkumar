@@ -1,24 +1,31 @@
-import html from '../assets/html-5.png'
-import css from '../assets/css-3.png'
-import expressjs from '../assets/express.png'
-import mongodb from '../assets/mongodb.png'
-import js from '../assets/js.png'
-import react from '../assets/react.png'
-import mysql from '../assets/certificate/mysql.png'
-import node from '../assets/nodejs.png'
-import python from '../assets/python.png'
-import java from '../assets/java.png'
-import postman from '../assets/postman-icon.png'
-import bootstrap from '../assets/bootstrap.png'
-import vscode from '../assets/vscode.png'
-import git from '../assets/git.png'
-import github from '../assets/github-sign.png'
-import figma from '../assets/certificate/figma.png'
-import c from '../assets/c.png'
-import cplusplus from '../assets/cplusplus.png'
+
+import { FaHtml5 } from "react-icons/fa";
+import { DiJsBadge } from "react-icons/di";
+import { DiCss3 } from "react-icons/di";
+import { DiReact } from "react-icons/di";
+import { DiBootstrap } from "react-icons/di";
+
+import { DiPython } from "react-icons/di";
+import { DiJava } from "react-icons/di";
+import { DiNodejsSmall } from "react-icons/di";
+import { SiExpress } from "react-icons/si";
+import { SiMongodb, SiMysql, SiPostman, SiGit, SiFigma, SiC, SiCplusplus } from "react-icons/si";
+import { BiLogoVisualStudio } from "react-icons/bi";
+
+
+// import mongodb from '../assets/mongodb.png'
+// import mysql from '../assets/certificate/mysql.png'
+// import postman from '../assets/postman-icon.png'
+
+// import vscode from '../assets/vscode.png'
+// import git from '../assets/git.png'
+// import github from '../assets/github-sign.png'
+// import figma from '../assets/certificate/figma.png'
+// import c from '../assets/c.png'
+// import cplusplus from '../assets/cplusplus.png'
 
 import '../Stylesheets/skillStyle.css'
-import Skillset from './Skillset'
+
 
 const Skills = () => {
 
@@ -37,11 +44,12 @@ const Skills = () => {
                     <div className='ms-1'>Frontend Technologies</div>
                     </div> 
                 <div className='skill-set'>
-                  <Skillset imgsrc={html}/>
-          <Skillset imgsrc={css}/>
-          <Skillset imgsrc={js}/>
-          <Skillset imgsrc={react}/>
-          <Skillset imgsrc={bootstrap}/>
+                  <FaHtml5 className="skill-icon" style={{color:"#E34F26"}}/>
+                  <DiCss3 className="skill-icon" style={{color:"#1572B6"}}/>
+                  <DiJsBadge className="skill-icon" style={{color:"#F7DF1E"}} />
+                    <DiReact className="skill-icon" style={{color:"#61DAFB"}}/>
+                  <DiBootstrap className="skill-icon" style={{color:"#7952B3"}}/>
+                
           </div>
 
               <p className='skill-para'>Html5, Css3, Javascript, React JS, Bootstrap5</p>
@@ -58,12 +66,13 @@ const Skills = () => {
                     <div className='ms-1'>Backend Technologies</div>
                     </div> 
                 <div className='skill-set'>
-          <Skillset imgsrc={python}/>
-          <Skillset imgsrc={java}/>
-          <Skillset imgsrc={node}/>
-          <Skillset imgsrc={expressjs}/>
-          <Skillset imgsrc={cplusplus}/>
-          <Skillset imgsrc={c}/>
+                  <DiPython className="skill-icon" style={{color:"#3776AB"}}/>
+                  <DiJava className="skill-icon" style={{color:"#ED8B00"}}/>
+              <DiNodejsSmall className="skill-icon" style={{color:"#339933"}}/>
+              <SiExpress className="skill-icon" style={{color:"#FFF"}}/>
+                <SiC className="skill-icon" style={{color:"#A8B9CC"}}/>
+                <SiCplusplus className="skill-icon" style={{color:"#00599C"}}/>
+
           </div>
 
           <p className='skill-para'>Python, Java, NodeJS, ExpressJs, C, C++</p>
@@ -79,8 +88,8 @@ const Skills = () => {
                     <div className='ms-1'>Database</div>
                     </div> 
                 <div className='skill-set'>
-                   <Skillset imgsrc={mongodb}/>  
-              <Skillset imgsrc={mysql}/>  
+                  <SiMongodb className="skill-icon" style={{color:"#47A248"}}/>
+                  <SiMysql className="skill-icon" style={{color:"#F29111"}}/>
              
           </div>
 
@@ -91,16 +100,15 @@ const Skills = () => {
 
            </div>
 
-           <h4 className='text-center my-2 skill-tool'>Tools Used</h4>
+           <h4 className='text-center my-3 mt-5 skill-tool'>Tools Used</h4>
 
           <div className="row">
             <div className="col-md-8 col-lg-6 offset-md-2 offset-lg-3">
               <div className="tool-col tool ">
-                <Skillset imgsrc={vscode}/>
-                <Skillset imgsrc={git}/>
-                <Skillset imgsrc={github}/>
-                <Skillset imgsrc={figma}/>
-                <Skillset imgsrc={postman}/>
+                < SiPostman className="skill-icon" style={{color:"#FF6C37"}}/>
+                <SiGit className="skill-icon" style={{color:"#F05032"}}/>
+                <SiFigma className="skill-icon" style={{color:"#A259FF"}}/>
+                <BiLogoVisualStudio className="skill-icon" style={{color:"#007ACC"}}/>
               </div>
             </div>
           </div>
