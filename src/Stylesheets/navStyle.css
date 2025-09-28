@@ -39,6 +39,7 @@
     font-weight: 500;
     margin: 0px 4px;
 }
+
 .navbar-item:hover{
     border-bottom: 2px solid var(--secondary-background-color);
     border-radius: 5px;
