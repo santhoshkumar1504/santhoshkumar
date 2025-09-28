@@ -1,16 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+QLD:wght@100..400&display=swap');
 
-.navbar{
-    background-color: var(--primary-background-color);
-    display: flex;
-    justify-content: space-between;
-    position: sticky;
-    top: 0;
-    left: 0;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    z-index: 100;
-}
+
+ .navbar{
+    background-color: black;
+ }
 .navbar-brand{
     font-family: "Playwrite AU QLD", cursive;
   font-optical-sizing: auto;
@@ -28,9 +21,10 @@
 }
 .navbar-nav .navbar-item{
     display: flex;
+    background-color: black;
     place-content: center;
     padding: 3px 8px;
-    margin: 0px 5px;
+    margin: 4px 5px;
     border-bottom: 2px solid transparent;
 }
 .navbar-nav a{
@@ -43,6 +37,7 @@
 .navbar-item:hover{
     border-bottom: 2px solid var(--secondary-background-color);
     border-radius: 5px;
+    
 }
 .contain{
     display: flex;
@@ -53,41 +48,3 @@
     display: flex;
 }
 
-
-/* Media query */
-
-@media (min-width:768px) {
-    .menu-btn,.close-btn{
-    outline: none;
-    display: flex;
-    display: none;
-}
-#menu{
-    display: flex !important;
-}
-}
-
-@media (max-width:767px) {
-    .navbar-nav{
-    display: block;
-}
-.close-btn{
-    display: none;
-    outline: none;
-}
-    .menu-btn{
-        display: flex;
-        outline: none;
-    }
-
-    .navbar{
-        display: block;
-    }
-    .navbar-brand{
-        display: flex;
-        justify-content: space-between;
-    }
-    .contain{
-    display: none;
-}
-}
