@@ -18,6 +18,7 @@ const Navbar = () => {
     </div>
    
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" onClick={handler}>
+      
       {isopen ? <i className="bi bi-x-lg text-light p-2"></i>: <i className="bi bi-list text-light p-2"></i> }
       
     </button>
