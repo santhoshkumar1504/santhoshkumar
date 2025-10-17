@@ -1,13 +1,10 @@
 .contact-container{
     background-color: var(--primary-background-color);
+    font-size: 18px;
 }
 .contact-col{
-    padding: 25px 10px;
     padding-bottom: 15px;
        transition: 2s;
-     animation: ani-left ease-in-out;
-    animation-timeline: view();
-    animation-range: entry -20%;
 }
 .maincontact{
     color: var(--secondary-text-color);
@@ -23,7 +20,12 @@
 }
 .content1{
     margin-top: 5px;
-
+}
+.content1 a{
+        color: var(--secondary-text-color);
+}
+.content1 a:hover{
+    color: var(--secondary-background-color);
 }
 .txt-are{
 height: 120px;
@@ -54,8 +56,7 @@ height: 120px;
     background-color: var(--secondary-background-color);
 }
 .msg-btn:hover{
-    margin-top: 20px;
-    background-color: var(--primary-background-color);
+    background-color: var(--secondary-background-color);
 }
 .requireds{
     color: red;
@@ -100,13 +101,3 @@ height: 120px;
 
 }
 
-@keyframes ani-left {
-    from{
-        opacity: 0;
-        transform: translateX(-500px);
-    }
-    to{
-        opacity: 1;
-        transform: translateX(0px);
-    }
-}

@@ -3,39 +3,40 @@
     min-height: fit-content;
     background-color: var(--primary-background-color);
     padding: 2px 15px;
-    transition: 8s;
+    transition: 2s;
+    font-size: 18px;
 }
-.head{
-    animation: ani-left ease;
-    animation-timeline: view();
-    animation-range: entry 20%;
-}
+
 .about-container .para{
     color: var(--primary-background-white);
     transition: 2s;
-    animation: ani-left ease-in-out;
-    animation-timeline: view();
-    animation-range: entry 0%;
+   margin-top: 5px;
 }
-
+.about-container .para .highlight{
+    color:var(--secondary-background-color);
+    font-weight: 800;
+}
 .about-card{
     margin-top: 20px;
     margin-bottom: 20px;
        transition: 2s;
-     animation: ani-left ease-in-out;
+    padding: 20px;
+    animation: ani-skill ease;
     animation-timeline: view();
     animation-range: entry 0%;
-    padding: 20px;
 }
 /* .about-card:hover{
     background-color: rgba(250, 99, 129, 0.993);
 } */
 .card-title{
-    font-size: 18px;
+    font-size: 20px;
     color: var(--secondary-background-color);
 }
 .card-text ul li{
     margin-bottom: 15px;
+}
+li{
+    margin-bottom: 4px;
 }
 .buttonsGroup-about .resume-btn svg{
     width: 30px;
@@ -47,27 +48,7 @@
     height: 25px;
     fill: var(--secondary-background-color);
 }
-/* Animations */
-@keyframes ani-left {
-    from{
-        opacity: 0;
-        transform: translateX(-500px);
-    }
-    to{
-        opacity: 1;
-        transform: translateX(0px);
-    }
-}
-@keyframes ani-right{
-    from{
-        opacity: 0;
-        transform: translateX(2000px);
-    }
-    to{
-        opacity: 1;
-        transform: translateX(0px);
-    }
-}
+
 
 
 
@@ -95,4 +76,19 @@
     align-items: center;
     margin: auto;
    }
+}
+
+
+/* Animation */
+
+@keyframes ani-skill {
+    from
+    {
+        opacity: 0;
+        transform: translateY(500px);
+    }
+    to{
+        opacity: 1;
+        transform: translate(0px);
+    }
 }

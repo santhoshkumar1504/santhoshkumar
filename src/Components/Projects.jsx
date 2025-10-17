@@ -4,19 +4,15 @@ import portfolio from '../assets/portfolio-project.png'
 import currency from '../assets/currency.png'
 import ProjectBox from './ProjectBox'
 import movie from '../assets/movieapp.jpeg'
+import projectimg from '../assets/project .png';
+import { MdOutlineExpandMore } from "react-icons/md";
+import { Link } from 'react-router-dom'
 
 const Projects = () => {
 
 
   const projectData=[
-     {
-      "pid":1001,
-      "projectimage":portfolio,
-      "projecttitle":"Personal Portfolio",
-      "projectdesc":"A responsive personal portfolio website built with React to showcase projects, skills, and contact information, featuring smooth navigation and a clean, modern design.",
-      "github":"https://github.com/santhoshkumar1504/santhoshkumar",
-      "website":"https://santhoshkumar-one.vercel.app/"
-    },
+    
     {
       "pid":1002,
       "projectimage":weather,
@@ -51,11 +47,17 @@ const Projects = () => {
         <div className="row project-row">
           {projectData.map((item,index)=>(
             
-              <ProjectBox key={index} file={item.projectimage} projecttitle={item.projecttitle} projectdesc={item.projectdesc} github={item.github} website={item.website}/>
+              <ProjectBox key={index} file={item.projectimage || projectimg} projecttitle={item.projecttitle} projectdesc={item.projectdesc} github={item.github} website={item.website}/>
 
           ))}
         
         </div>
+        <div className='text-center my-3 mt-4'>
+<Link to={'/projects'}><button className="btn cbutton"><MdOutlineExpandMore />
+Show More</button></Link>
+
+        </div>
+           
        
     </div>
   )

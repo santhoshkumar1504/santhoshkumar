@@ -9,7 +9,25 @@ body{
     background-color: var( --primary-background-color);
 }
 
+.alternate{
+      --primary-background-color:rgb(227, 224, 224);
+    --secondary-background-color:crimson;
+    --primary-background-white:rgb(0, 0, 0);
+
+    --primary-text-color:white;
+    --primary-head-text-color:crimson;
+    --secondary-text-color:black;
+
+    --bg-hover-color:rgb(97, 97, 97);
+    --bg-icon-hover-color:rgb(247, 15, 61);
+    --text-hover-color:rgb(247, 15, 61);
+    --new-color:rgb(255, 255, 255);
+    --common-color:black;
+}
+
 :root{
+    --commom-color:black;
+    --new-color:silver;
     --primary-background-color:black;
     --secondary-background-color:crimson;
     --primary-background-white:white;
@@ -52,6 +70,7 @@ body{
     margin-bottom: 5px;
 }
 .footer{
+    background-color: var(--primary-background-color);
     color:gray;
     font-weight: 500;
     text-align: center;
@@ -77,4 +96,36 @@ body{
       padding-top: 55px;
     background-color: var(--primary-background-color);
  }
+}
+
+.cbutton{
+    padding: 5px 10px;
+    color: var(--primary-background-white);
+    background-color: var(--secondary-background-color);
+}
+
+/* 404 */
+.not-found-container {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.not-found-container h1 {
+  font-size: 96px;
+  margin-bottom: 20px;
+  color: #ff4c60;
+}
+
+.not-found-container p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.home-link {
+  text-decoration: none;
+  color: white;
+  background-color: #4CAF50;
+  padding: 12px 24px;
+  border-radius: 4px;
+  font-weight: bold;
 }

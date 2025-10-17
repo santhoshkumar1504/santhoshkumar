@@ -6,7 +6,7 @@
 }
 .home-maintext{
     color: var(--primary-background-white);
-    font-size: 18px;
+    font-size: 20px;
 }
 .home-name{
     color: var( --primary-head-text-color);
@@ -18,6 +18,7 @@
 .home-subtext{
     color: var(--primary-background-white);
     text-align:justify;
+    font-size: 18px;
 }
 .a-btn{
     text-decoration: none;
@@ -30,7 +31,7 @@
     margin-top: 15px;
     background-color: var(--secondary-background-color);
     color: var(--primary-background-white);
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 600;
 }
 .resume-btn:hover{
@@ -90,9 +91,13 @@
         margin-bottom: 25px;
     }
     .box1{
-        margin-top: 70px;
-        margin-left: 150px;
-        margin-bottom: 25px;
+        /* margin-top: 70px;
+        margin-left: 180px;
+        margin-bottom: 25px; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
         width: 320px;
         height: 380px;
     }
