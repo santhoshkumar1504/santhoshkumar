@@ -29,6 +29,12 @@ const AllProject = () => {
           "website":"https://weather-app-chi-lilac-43.vercel.app/"
         },
         {
+          "pid":1006,
+          "projecttitle":"Simple Todo",
+          "projectdesc":"To-Do app built with Node.js, Express.js, MongoDB, and EJS. It allows users to add, view, and delete tasks through a simple and clean web interface.",
+          "github":"https://github.com/santhoshkumar1504/todo-app",
+        },
+        {
           "pid":1003,
           "projectimage":currency,
           "projecttitle":"Currency Convertor",
