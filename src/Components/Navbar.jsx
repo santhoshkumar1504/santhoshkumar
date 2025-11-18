@@ -11,8 +11,8 @@ const Navbar = () => {
       setClose(!isclose);
   }
   const handleClick=()=>{
-    setClose(!isclose);
-    setOpen(!isopen);
+    setClose(false);
+    setOpen(false);
   }
 
   return (

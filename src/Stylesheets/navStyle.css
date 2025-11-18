@@ -2,7 +2,6 @@
 
 
  .navbar{
-    transition: 2s;
     border-bottom: 0.5px solid black;
     background-color: var(--primary-background-color);
  }

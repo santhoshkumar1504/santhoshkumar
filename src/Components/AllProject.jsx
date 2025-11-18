@@ -10,6 +10,8 @@ import movie from '../assets/movieapp.jpeg'
 import projectimg from '../assets/project .png';
 import { Link } from 'react-router-dom'
 
+
+
 const AllProject = () => {
       const projectData=[
          {

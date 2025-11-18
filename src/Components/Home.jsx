@@ -71,7 +71,7 @@ const Home = () => {
             </div>
 
             <div className="box1 col-12 col-md-3 offset-md-2 image-container">
-                <img src={image} alt="photo" className='img-fluid design h-10 w-40 '/>
+                {/* <img src={image} alt="photo" className='img-fluid design h-10 w-40 '/> */}
                 <img src={image1} className='w-10 pic h-100'/>
             </div>
 

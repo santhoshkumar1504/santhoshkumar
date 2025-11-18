@@ -46,7 +46,7 @@
 .pic{
     position: absolute;
     z-index: 10;
-    filter:contrast(1.5);
+    filter:contrast(1.4);
     height: 100px;
 border-radius: 50px;
     user-select: none;
