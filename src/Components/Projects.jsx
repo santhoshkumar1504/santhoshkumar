@@ -1,7 +1,6 @@
 import '../Stylesheets/projectStyle.css'
 import weather from '../assets/weather.png'
-import portfolio from '../assets/portfolio-project.png'
-import currency from '../assets/currency.png'
+import restapi from '../assets/restapi.png'
 import ProjectBox from './ProjectBox'
 import movie from '../assets/movieapp.jpeg'
 import projectimg from '../assets/project .png';
@@ -21,14 +20,13 @@ const Projects = () => {
       "github":"https://github.com/santhoshkumar1504/weather-app",
       "website":"https://weather-app-chi-lilac-43.vercel.app/"
     },
-    {
-      "pid":1003,
-      "projectimage":currency,
-      "projecttitle":"Currency Convertor",
-      "projectdesc":"A React-based currency converter that uses a public API to provide real-time exchange rates and convert amounts between different currencies.",
-      "github":"https://github.com/santhoshkumar1504/currencyconvertor",
-      "website":"https://currencyconvertor-ashy.vercel.app/"
-    },
+     {
+           "pid":1006,
+           "projectimage":restapi,
+          "projecttitle":"Rest API",
+          "projectdesc":"A lightweight and scalable Node.js REST API that handles user signup/login, email verification, file uploads, and CRUD operations with JWT-based security.",
+          "github":"https://github.com/santhoshkumar1504/rest-api",
+        },
     {
       "pid":1004,
       "projectimage":movie,

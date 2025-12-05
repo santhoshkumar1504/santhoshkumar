@@ -1,5 +1,6 @@
 import React from 'react'
 import '../Stylesheets/projectStyle.css'
+import restapi from '../assets/restapi.png'
 import { IoArrowBackCircleSharp } from "react-icons/io5";
 
 import weather from '../assets/weather.png'
@@ -14,6 +15,13 @@ import { Link } from 'react-router-dom'
 
 const AllProject = () => {
       const projectData=[
+        {
+           "pid":1006,
+           "projectimage":restapi,
+          "projecttitle":"Rest API",
+          "projectdesc":"A lightweight and scalable Node.js REST API that handles user signup/login, email verification, file uploads, and CRUD operations with JWT-based security.",
+          "github":"https://github.com/santhoshkumar1504/rest-api",
+        },
          {
           "pid":1001,
           "projectimage":portfolio,
@@ -57,7 +65,8 @@ const AllProject = () => {
           "projecttitle":"Project Management System",
           "projectdesc":"A backend system built with Node.js and MongoDB to manage projects and tasks Provides robust CRUD APIs for creating, reading, updating, and deleting data.",
           "github":"https://github.com/santhoshkumar1504/task-management",
-        }
+        },
+        
       ]  
 
   return (
