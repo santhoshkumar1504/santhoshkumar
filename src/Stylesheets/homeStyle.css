@@ -2,7 +2,7 @@
     background-color: var(--primary-background-color);
     padding: 5px 25px;
     width: 100%;
-    min-height: 90dvh;
+    min-height: fit-content;
 }
 .home-maintext{
     color: var(--primary-background-white);
@@ -106,10 +106,14 @@ border-radius: 50px;
         display: flex;
         flex-direction: row;
     }
+    .home-container{
+        padding: 2rem 1.5rem 2.4rem 1.5rem;
+    }
 }
 
 
 @media (max-width:767px) {
+
     .buttonsGroup{
     width: 100%;
     justify-content: center;
@@ -135,6 +139,7 @@ border-radius: 50px;
         margin: auto;
         text-align: center;
         align-items: center;
+        min-height: 90vh;
     }
     .home-subtext{
     color: var(--primary-background-white);
