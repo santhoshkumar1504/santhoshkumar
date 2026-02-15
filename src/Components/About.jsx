@@ -64,7 +64,7 @@ I’m always eager to learn new technologies, tackle challenging problems, and c
 
           </div>
           <div className="col-12 col-md-4">
-            <div className="card about-card">
+            <div className="card about-card card-text">
               <div className="card-title text-center fw-bold">
                 Experience
                  </div>
@@ -82,7 +82,7 @@ I’m always eager to learn new technologies, tackle challenging problems, and c
             </div>
           </div>
           <div className="col-12 col-md-4">
-            <div className="card about-card">
+            <div className="card about-card  card-text">
               <div className="card-title text-center fw-bold">
                 Certifications
                  </div>

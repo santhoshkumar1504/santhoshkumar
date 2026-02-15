@@ -6,7 +6,7 @@
     border: 1px solid var(--primary-background-white);
     border-radius: 8px;
     margin: 3px;
-       transition: 2s;
+       transition: 0.1s;
        position: relative;
        margin-top: 10px;
        bottom: 0px;
@@ -15,7 +15,9 @@
     animation-range: entry 0%;
      
 }
-
+.skill-col:hover,.tool-col:hover{
+        box-shadow: 0px 0px 10px var(--primary-background-white);
+}
 .skill-set{
     display: flex;
     flex-direction: row;
@@ -30,7 +32,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-       transition: 2s;
+       transition: 0.2s;
     
 }
 .skill-para{
@@ -39,7 +41,7 @@
     margin-top: 5px;
     font-weight: 600;
     font-size: 19px;
-    position: s;
+    /* position: s; */
     padding: 10px;
     bottom: 0px;
     
@@ -66,10 +68,6 @@
     padding: 0px;
 }
 
-/* .skill-img:hover{
- background-color: var(--secondary-color);
-} */
-
 
 .skill-svg{
   fill: var(--secondary-background-color);
@@ -91,7 +89,7 @@
     border-radius: 8px;
     margin: 3px;
     padding: 5px;
-       transition: 2s;
+       transition: 0.1s;
           animation: ani-skill ease;
     animation-timeline: view();
     animation-range: entry 0%;

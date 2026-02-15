@@ -12,18 +12,6 @@ import { SiExpress } from "react-icons/si";
 import { SiMongodb, SiMysql, SiPostman, SiGit, SiFigma, SiC, SiCplusplus } from "react-icons/si";
 import { BiLogoVisualStudio } from "react-icons/bi";
 
-
-// import mongodb from '../assets/mongodb.png'
-// import mysql from '../assets/certificate/mysql.png'
-// import postman from '../assets/postman-icon.png'
-
-// import vscode from '../assets/vscode.png'
-// import git from '../assets/git.png'
-// import github from '../assets/github-sign.png'
-// import figma from '../assets/certificate/figma.png'
-// import c from '../assets/c.png'
-// import cplusplus from '../assets/cplusplus.png'
-
 import '../Stylesheets/skillStyle.css'
 
 
@@ -70,12 +58,12 @@ const Skills = () => {
                   <DiJava className="skill-icon" style={{color:"#ED8B00"}}/>
               <DiNodejsSmall className="skill-icon" style={{color:"#339933"}}/>
               <SiExpress className="skill-icon" style={{color:"#614e4eff"}}/>
-                <SiC className="skill-icon" style={{color:"#90b7e3ff"}}/>
-                <SiCplusplus className="skill-icon" style={{color:"#00599C"}}/>
+                {/* <SiC className="skill-icon" style={{color:"#90b7e3ff"}}/>
+                <SiCplusplus className="skill-icon" style={{color:"#00599C"}}/> */}
 
           </div>
 
-          <p className='skill-para'>Python, Java, NodeJS, ExpressJs, C, C++</p>
+          <p className='skill-para'>Python, Java, NodeJS, ExpressJs</p>   {/*C, C++ */}
              </div>
             </div>
 
@@ -104,11 +92,12 @@ const Skills = () => {
     
           <div className="row">
             <div className="col-md-8 col-lg-4 offset-md-2 offset-lg-4">
-              <div className="tool-col tool ">
+              <div className="tool-col tool p-2">
                 < SiPostman className="skill-icon" style={{color:"#FF6C37"}}/>
                 <SiGit className="skill-icon" style={{color:"#F05032"}}/>
                 <SiFigma className="skill-icon" style={{color:"#A259FF"}}/>
                 <BiLogoVisualStudio className="skill-icon" style={{color:"#007ACC"}}/>
+                 <p className='skill-para'>Postman, Git, Figma, Visual Studio Code</p> 
               </div>
             </div>
           </div>

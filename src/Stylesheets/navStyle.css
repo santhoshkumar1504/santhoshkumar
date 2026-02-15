@@ -13,12 +13,13 @@
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: normal;
-  transition: 2s;
+  transition: 0.2s;
     display: flex;
     color: var(--secondary-background-color);
     font-size: 21px;
     align-items: center;
     margin-left: 12px;
+    text-shadow: 0px 0px 8px var(--secondary-background-color);
 }
 .navbar-brand:hover{
     cursor: pointer;

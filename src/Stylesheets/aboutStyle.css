@@ -1,39 +1,66 @@
-.about-container{
+.about-container {
     width: 100%;
     min-height: fit-content;
     background-color: var(--primary-background-color);
-    padding: 2px 15px;
-    transition: 2s;
+    padding: 40px 20px;
     font-size: 18px;
 }
 
-.about-container .para{
+/* Paragraph */
+.about-container .para {
     color: var(--primary-background-white);
-    transition: 2s;
-   margin-top: 5px;
+    margin-top: 10px;
+    line-height: 1.6;
 }
-.about-container .para .highlight{
-    color:var(--secondary-background-color);
+
+.about-container .para .highlight {
+    color: var(--secondary-background-color);
     font-weight: 800;
 }
-.about-card{
-    margin-top: 20px;
-    margin-bottom: 20px;
-       transition: 2s;
-    padding: 20px;
-    animation: ani-skill ease;
-    animation-timeline: view();
+
+/* CARD DESIGN */
+.about-card {
+    margin: 25px 0;
+    padding: 25px;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.051);
+    border: 1px solid rgba(220, 20, 60, 0.3);
+    backdrop-filter: blur(20px);
+    transition: all 0.4s ease;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    animation: ani-skill ease; 
+    animation-timeline: view(); 
     animation-range: entry 0%;
 }
-/* .about-card:hover{
-    background-color: rgba(250, 99, 129, 0.993);
-} */
-.card-title{
-    font-size: 20px;
-    color: var(--secondary-background-color);
+
+.about-card:hover {
+    transform: translateY(-8px);
+    border-color: crimson;
+    box-shadow: 0 15px 30px rgba(220, 20, 60, 0.3);
 }
-.card-text ul li{
+
+.card-title {
+    font-size: 22px;
+    font-weight: 700;
+    color: crimson;
     margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+.card-text ul {
+    padding-left: 20px;
+}
+
+.card-text ul li {
+    margin-bottom: 12px;
+    color: var(--primary-background-white);
+    position: relative;
+    transition: 0.3s;
+}
+
+/* Custom bullet */
+.card-text ul li::marker {
+    color: crimson;
 }
 li{
     margin-bottom: 4px;

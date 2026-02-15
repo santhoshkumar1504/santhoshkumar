@@ -4,7 +4,7 @@
 }
 .contact-col{
     padding-bottom: 15px;
-       transition: 2s;
+       transition: 0.2s;
 }
 
 .maincontact{
@@ -52,12 +52,27 @@ height: 120px;
     padding: 6px;
     margin-bottom: 10px;
 }
-.msg-btn{
+.msg-btn {
     margin-top: 20px;
-    background-color: var(--secondary-background-color);
+    background: crimson;
+    color: #fff;
+    padding: 10px 22px;
+    border: none;
+    border-radius: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 20px rgba(220, 20, 60, 0.3);
+    cursor: pointer;
 }
-.msg-btn:hover{
-    background-color: var(--secondary-background-color);
+
+/* Hover Effect */
+.msg-btn:hover {
+    background: transparent;
+    color: crimson;
+    border: 1px solid crimson;
+    transform: translateY(-3px);
+    box-shadow: 0 12px 25px rgba(220, 20, 60, 0.4);
 }
 .requireds{
     color: red;
