@@ -147,3 +147,39 @@ border-radius: 50px;
     text-align:center;
 }
 }
+
+/* ai design */
+/* responsive sizes using clamp */
+.bg-design{
+  position: absolute;
+  width: clamp(190px, 40vw, 280px);
+  height: clamp(190px, 40vw, 280px);
+  background: linear-gradient(135deg, crimson, #8b0000);
+  border-radius: 40% 60% 65% 35% / 40% 40% 60% 60%;
+  z-index: 1;
+ box-shadow: 0 0 50px rgba(220,20,60,0.6);
+  transform: translate(clamp(-10px, -2vw, -22px), clamp(8px, 2vw, 22px));
+}
+
+.profile-img{
+  position: relative;
+  z-index: 2;
+  width: clamp(200px, 32vw, 300px);
+  height: auto;
+  border-radius: 18px;
+  filter: contrast(1.2);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+/* Extra tuning for very small phones */
+@media (max-width: 360px){
+  .image-container{ padding: 1rem 0; }
+  .profile-img{ border-width: 5px; border-radius: 16px; }
+}
+
+/* If you want it aligned left on desktop (common in portfolios) */
+@media (min-width: 992px){
+  .image-container{
+    justify-content: flex-start;
+  }
+}
