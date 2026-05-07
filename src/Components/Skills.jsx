@@ -55,7 +55,6 @@ const Skills = () => {
                     </div> 
                 <div className='skill-set'>
                   <DiPython className="skill-icon" style={{color:"#3776AB"}}/>
-                  <DiJava className="skill-icon" style={{color:"#ED8B00"}}/>
               <DiNodejsSmall className="skill-icon" style={{color:"#339933"}}/>
               <SiExpress className="skill-icon" style={{color:"#614e4eff"}}/>
                 {/* <SiC className="skill-icon" style={{color:"#90b7e3ff"}}/>
@@ -63,7 +62,7 @@ const Skills = () => {
 
           </div>
 
-          <p className='skill-para'>Python, Java, NodeJS, ExpressJs</p>   {/*C, C++ */}
+          <p className='skill-para'>Python, NodeJS, ExpressJs</p>   {/*C, C++ */}
              </div>
             </div>
 

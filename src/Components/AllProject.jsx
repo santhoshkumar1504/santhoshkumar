@@ -2,7 +2,7 @@ import React from 'react'
 import '../Stylesheets/projectStyle.css'
 import restapi from '../assets/restapi.png'
 import { IoArrowBackCircleSharp } from "react-icons/io5";
-
+import ecommerce from '../assets/ecommerce.png'
 import weather from '../assets/weather.png'
 import portfolio from '../assets/portfolio-project.png'
 import currency from '../assets/currency.png'
@@ -14,7 +14,15 @@ import { Link } from 'react-router-dom'
 
 
 const AllProject = () => {
+  // Developed a full-stack MERN e-commerce application with secure authentication, CRUD operations, and Razorpay payment integration. Implemented voice-based navigation using Web Speech API to enable hands-free interaction and improve user experience.
       const projectData=[
+        {
+          "pid":1007,
+           "projectimage":ecommerce,
+          "projecttitle":"Ecommerce Project (MERN)",
+          "projectdesc":"Developed a scalable full-stack e-commerce application using the MERN stack with secure authentication, product and category management, and complete CRUD functionality.",
+          "github":"https://github.com/santhoshkumar1504/ecommerce-website-MERN",
+        },
         {
            "pid":1006,
            "projectimage":restapi,

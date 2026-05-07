@@ -3,6 +3,7 @@ import weather from '../assets/weather.png'
 import restapi from '../assets/restapi.png'
 import ProjectBox from './ProjectBox'
 import movie from '../assets/movieapp.jpeg'
+import ecommerce from '../assets/ecommerce.png'
 import projectimg from '../assets/project .png';
 import { MdOutlineExpandMore } from "react-icons/md";
 import { Link } from 'react-router-dom'
@@ -11,15 +12,13 @@ const Projects = () => {
 
 
   const projectData=[
-    
     {
-      "pid":1002,
-      "projectimage":weather,
-      "projecttitle":"Weather App",
-      "projectdesc":"A React-based weather app that fetches and displays real-time temperature, humidity, and wind speed for any city using a public Weather API.",
-      "github":"https://github.com/santhoshkumar1504/weather-app",
-      "website":"https://weather-app-chi-lilac-43.vercel.app/"
-    },
+              "pid":1007,
+               "projectimage":ecommerce,
+              "projecttitle":"Ecommerce Project (MERN)",
+              "projectdesc":"Developed a scalable full-stack e-commerce application using the MERN stack with secure authentication, product and category management, and complete CRUD functionality.",
+              "github":"https://github.com/santhoshkumar1504/ecommerce-website-MERN",
+     },
      {
            "pid":1006,
            "projectimage":restapi,

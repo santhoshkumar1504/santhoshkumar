@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { TypeAnimation } from 'react-type-animation';
 import '../Stylesheets/homeStyle.css';
-import resume from '../assets/Resume-santhosh.pdf'
+import resume from '../assets/santhoshkumar_resume.pdf'
 import image from '../assets/1000033025.png'
 import image1 from '../assets/1000033219-removebg-preview.png';
 

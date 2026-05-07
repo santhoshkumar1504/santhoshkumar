@@ -1,5 +1,5 @@
 import '../Stylesheets/aboutStyle.css';
-import resume from '../assets/Resume-santhosh.pdf'
+import resume from '../assets/santhoshkumar_resume.pdf'
 import interndata from '../Datas/internshipData.json'
 
 const About = () => {
