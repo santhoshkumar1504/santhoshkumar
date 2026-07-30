@@ -4,7 +4,7 @@ import { DiJsBadge } from "react-icons/di";
 import { DiCss3 } from "react-icons/di";
 import { DiReact } from "react-icons/di";
 import { DiBootstrap } from "react-icons/di";
-
+import { SiDjango } from "react-icons/si";
 import { DiPython } from "react-icons/di";
 import { DiJava } from "react-icons/di";
 import { DiNodejsSmall } from "react-icons/di";
@@ -54,6 +54,7 @@ const Skills = () => {
                     <div className='ms-1 fs-5'>Backend Technologies</div>
                     </div> 
                 <div className='skill-set'>
+                  <SiDjango className="skill-icon" style={{color:"#0a8959"}}/>
                   <DiPython className="skill-icon" style={{color:"#3776AB"}}/>
               <DiNodejsSmall className="skill-icon" style={{color:"#339933"}}/>
               <SiExpress className="skill-icon" style={{color:"#614e4eff"}}/>
@@ -62,7 +63,7 @@ const Skills = () => {
 
           </div>
 
-          <p className='skill-para'>Python, NodeJS, ExpressJs</p>   {/*C, C++ */}
+          <p className='skill-para'>Django, Python, NodeJS, ExpressJs</p>   {/*C, C++ */}
              </div>
             </div>
 

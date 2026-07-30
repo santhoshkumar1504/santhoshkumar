@@ -2,8 +2,8 @@ import { useState } from 'react';
 import { TypeAnimation } from 'react-type-animation';
 import '../Stylesheets/homeStyle.css';
 import resume from '../assets/santhoshkumar_resume.pdf'
-import image from '../assets/1000033025.png'
-import image1 from '../assets/1000033219-removebg-preview.png';
+// import image from '../assets/1000033025.png'
+import image1 from '../assets/img.png';
 
 const Home = () => {
 
@@ -21,13 +21,13 @@ const Home = () => {
                     <span className='home-maintext'>
                         <TypeAnimation
                             sequence={[
+                                'and I\'m a Python Full Stack Developer',
+                                1500,
                                 // Same substring at the start will only be typed out once, initially
+                                'and I\'m a Freelancer',
+                                1500,
                                 'and I\'m a MERN Stack Developer',
                                 1500, // wait 1s before replacing 
-                                'and I\'m a Full-Stack Developer',
-                                1500,
-                                'and I\'m a Freelancer',
-                                1500
                             ]}
                             wrapper="span"
                             speed={50}
@@ -37,7 +37,7 @@ const Home = () => {
                     </span>
                     <hr className='mb-3' />
                     <p className='home-subtext'>
-                        Welcome to my digital space! I'm a passionate and aspiring <b>FullStack Web Developer</b>  with a keen interest in creating beautiful, responsive and user-friendly websites.
+                        Welcome to my digital space! I'm a passionate and aspiring <b>Full Stack Developer</b>  with a keen interest in creating beautiful, responsive and user-friendly websites.
                     </p>
                     {/* links */}
                     <div className="icons-container">

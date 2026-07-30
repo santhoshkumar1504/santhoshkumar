@@ -4,10 +4,11 @@ import restapi from '../assets/restapi.png'
 import { IoArrowBackCircleSharp } from "react-icons/io5";
 import ecommerce from '../assets/ecommerce.png'
 import weather from '../assets/weather.png'
-import portfolio from '../assets/portfolio-project.png'
+import shopsphere from '../assets/shopsphere.png'
 import currency from '../assets/currency.png'
 import ProjectBox from './ProjectBox'
 import movie from '../assets/movieapp.jpeg'
+import flight from '../assets/flight.jpg'
 import projectimg from '../assets/project .png';
 import { Link } from 'react-router-dom'
 
@@ -32,11 +33,11 @@ const AllProject = () => {
         },
          {
           "pid":1001,
-          "projectimage":portfolio,
-          "projecttitle":"Personal Portfolio",
-          "projectdesc":"A responsive personal portfolio website built with React to showcase projects, skills, and contact information, featuring smooth navigation and a clean, modern design.",
-          "github":"https://github.com/santhoshkumar1504/santhoshkumar",
-          "website":"https://santhoshkumar-one.vercel.app/"
+          "projectimage":shopsphere,
+          "projecttitle":"Shop Sphere - Ecommerce Web Application ( Django )",
+          "projectdesc":"A Django-based e-commerce application with product listing, search, cart, checkout, and order management.",
+          "github":"https://github.com/santhoshkumar1504/shopshere",
+          "website":"https://shopshere-l0d0.onrender.com/"
         },
         {
           "pid":1002,
@@ -48,9 +49,10 @@ const AllProject = () => {
         },
         {
           "pid":1006,
-          "projecttitle":"Simple Todo",
-          "projectdesc":"To-Do app built with Node.js, Express.js, MongoDB, and EJS. It allows users to add, view, and delete tasks through a simple and clean web interface.",
-          "github":"https://github.com/santhoshkumar1504/todo-app",
+          "projectimage":flight,
+          "projecttitle":"Flight Ticket Booking Website ( Django )",
+          "projectdesc":"A Django-based flight booking application with flight search, ticket booking, and booking management.",
+          "github":"https://github.com/santhoshkumar1504/Flight-Ticket-Booking-Website-Django",
         },
         {
           "pid":1003,
@@ -80,7 +82,7 @@ const AllProject = () => {
   return (
     <div className='project-container'>
         <div id="projects"></div>
-        <button className='btn cbutton'><Link to={'/'} className='text-decoration-none text-light'><IoArrowBackCircleSharp className='me-1'/>Back to Home</Link></button>
+        <Link to={'/'} className='text-decoration-none text-light'><button className='btn cbutton'><IoArrowBackCircleSharp className='me-1'/>Back to Home</button></Link>
         <h2 className='text-center head'>Projects</h2>
         
         <div className="row project-row">
